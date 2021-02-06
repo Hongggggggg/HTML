@@ -45,4 +45,11 @@
   <img src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie.">
   ```
 
-  
+- a标签，插入超链接
+
+  ```html
+  <a href="https://freecodecamp.org">this links to freecodecamp.org</a>
+  ```
+
+  a标签需要一个网站地址作为目的地，这个网址是填在href属性内的，其次a标签也需要一段文本作为超链接的提示语。
+
