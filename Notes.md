@@ -60,4 +60,14 @@
   <h2 id="header">Contacts</h2>
   ```
   ​	我们给h2标签了一个id属性，当我们点击a标签的时候，它就会跳转到这个id标记的区域
+  
+  ​	a标签除了可以单独使用，也可将其嵌入至其他文本当中。
+  
+  ```html
+  <p>
+  	Here's a <a target="_blank" href="http://freecodecamp.org"> link to freecodecamp.org</a> for you to follow.
+  </p>
+  ```
+  
+  ​	其中target属性为“_blank”，既点击这个标签时，会打开一个新的网页tab。
 
