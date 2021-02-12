@@ -52,22 +52,32 @@
   ```
 
   ​	a标签需要一个网站地址作为目的地，这个网址是填在href属性内的，其次a标签也需要一段文本作为超链接的提示语。
-  
-  ​	a元素除了可以指向外部的链接，同样叶可以跳转到网站内部的某一区域。想要创建内部的链接，同样需要使用href这个属性，我们将它设置成‘#’加上具体的id的形式来实现，这里的id是HTML当中的一个通用属性，任何标签都可以加上id。
-  ```html
-  <a href="#header">Contacts</a>
-  ...
-  <h2 id="header">Contacts</h2>
-  ```
-  ​	我们给h2标签了一个id属性，当我们点击a标签的时候，它就会跳转到这个id标记的区域
-  
-  ​	a标签除了可以单独使用，也可将其嵌入至其他文本当中。
-  
-  ```html
-  <p>
-  	Here's a <a target="_blank" href="http://freecodecamp.org"> link to freecodecamp.org</a> for you to follow.
-  </p>
-  ```
-  
-  ​	其中target属性为“_blank”，既点击这个标签时，会打开一个新的网页tab。
+
+  - a元素除了可以指向外部的链接，同样叶可以跳转到网站内部的某一区域。想要创建内部的链接，同样需要使用href这个属性，我们将它设置成‘#’加上具体的id的形式来实现，这里的id是HTML当中的一个通用属性，任何标签都可以加上id。
+
+    ```html
+    <a href="#header">Contacts</a>
+    ...
+    <h2 id="header">Contacts</h2>
+    ```
+
+    我们给h2标签了一个id属性，当我们点击a标签的时候，它就会跳转到这个id标记的区域	
+
+  - a标签除了可以单独使用，也可将其嵌入至其他文本当中。
+
+    ```html
+    <p>
+    	Here's a <a target="_blank" href="http://freecodecamp.org"> link to freecodecamp.org</a> for you to follow.
+    </p>
+    ```
+
+    其中target属性为“_blank”，既点击这个标签时，会打开一个新的网页tab。
+
+  - 设置哑链接：在不知道链接指向何处时，可以将href属性变为#，代表一个无效链接，后续可通过JavaScript动态修改HTML以及CSS的内容
+
+    ```html
+    <a href=#>this links to freecodecamp.org</a>
+    ```
+
+    
 
