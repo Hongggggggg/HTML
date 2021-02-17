@@ -91,5 +91,17 @@
   </ul>
   ```
 
+- 创建如下有序序列：
+
+  - Girl
+  - Boy
+
+  ```html
+  <ol>
+      <li>Girl</li>
+      <li>Boy</li>
+  </ol>
+  ```
+
   
 
